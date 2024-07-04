@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/Users/vasu/Sync/Obsidian/SafeSpace'
+let g:netrw_dirhist_1='/Users/vasu/Sync/Code/upstox_fin'
+let g:netrw_dirhist_0='/Users/vasu/.config/zsh'
+let g:netrw_dirhist_9='/Users/vasu/.pyenv'
+let g:netrw_dirhist_8='/Users/vasu/.vim'
+let g:netrw_dirhist_7='/Users/vasu/.vim/after/ftplugin'
+let g:netrw_dirhist_6='/Users/vasu/.vim/after'
+let g:netrw_dirhist_5='/Users/vasu/.vim'
+let g:netrw_dirhist_4='/Users/vasu'
+let g:netrw_dirhist_3='/Users/vasu/.vim'

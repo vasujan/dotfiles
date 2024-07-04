@@ -1,0 +1,16 @@
+[manager]
+prepend_keymap = [
+    { on = ["<C-s>"], run = 'shell "$SHELL" --block --confirm', desc = "Open shell here" },
+    #{ on = ["l"], run = 'plugin --sync smart-enter', desc = "Enter the child directory, or open the file" },
+    #{ on = ["P"], run = 'plugin --sync smart-paste', desc = "Paste into the hovered directory or CWD" },
+    #{ on = ["y"], run = ["yank", '''
+    #shell --confirm 'echo "$@" | xclip -i -selection clipboard -t text/uri-list'
+    #'''] },
+	{ on = [ "d" ],         run = "yank --cut",                 desc = "Cut the selected files" },
+	{ on = [ "D" ],         run = "unyank",                     desc = "Cancel the yank status of files" },
+	{ on = [ "x" ],         run = "remove",                     desc = "Move the files to the trash" },
+	{ on = [ "X" ],         run = "remove --permanently",       desc = "Permanently delete the files" },
+]
+append_keymap = [
+	{ on = [ "g", "a" ],       run = "cd ~/Aliases",     desc = "Go to the aliases directory" },
+]

@@ -1,0 +1,42 @@
+[manager]
+ratio = [1, 3, 4]
+show_hidden = true
+show_symlink = true
+sort_dir_first = true
+linemode = "size"
+mouse_events = ["click", "move", "drag", "scroll", "touch"]
+
+[opener]
+edit = [
+	{ run = 'nvim "$@"', block = true },
+]
+play = [
+	{ run = 'mpv "$@"', orphan = true},
+]
+# open = [
+# 	{ run = 'xdg-open "$@"', desc = "Open" },
+# ]
+
+# [open]
+# prepend_rules = [
+# 
+# ]
+# rules = [
+# 
+# ]
+# append_rules = [
+# 
+# ]
+
+[plugin]
+prepend_previewers = [
+  { name = "*.md", run = "glow" },
+  { name = "*.mp3", run = "exifaudio" },
+]
+append_previewers = [
+	# My fallback previewer
+	{ name = "*", run = "hexyl" }, 
+	#{ name = "*" , run = "binary" },
+]
+
+

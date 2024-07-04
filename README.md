@@ -1,3 +1,3 @@
 # dotfiles
 
-k
+Repository containing the dotfiles for UNIX systems.

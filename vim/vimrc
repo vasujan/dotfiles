@@ -1,0 +1,61 @@
+" Vim RC
+
+" Sections
+" Navigation
+" Visual
+" Formatting
+" Syntax
+" Theme
+" File
+" User Interface
+" 
+" References
+"
+
+" Filetype
+filetype plugin indent on
+"filetype detect "detect filetype
+
+" Syntax
+syntax on
+
+" Enable backpace (insert mode)
+set backspace=start,eol,indent
+
+" Allow hidden buffers
+set hidden
+
+" Disallow swap buffers
+set noswapfile
+
+" Environment 
+let $RTP=split(&runtimepath, ',')[0]
+let $RC="$HOME/.vim/vimrc"
+
+" Horizontal Spacing
+" set shiftwidth=4
+" set tabstop=4
+" set softtabstop=4
+" set expandtab
+" set autoindent
+" set smartindent
+
+" Line number
+set number
+set relativenumber
+
+" Theme
+colorscheme torte
+
+" Status bar
+set ruler
+set showcmd
+" always show status line
+set laststatus=1 
+
+" Enable mouse
+set mouse=a
+
+" Search
+set incsearch
+
